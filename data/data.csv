@@ -1,0 +1,11 @@
+,Dept,recruitment_type,satisfied
+0,Purchasing,Walk-in,False
+1,HR,Walk-in,True
+2,Purchasing,Recruitment Agency,False
+3,HR,Walk-in,True
+4,Sales,On-Campus,False
+5,HR,On-Campus,True
+6,Purchasing,Recruitment Agency,False
+7,HR,On-Campus,True
+8,Sales,Referral,True
+9,HR,On-Campus,True
