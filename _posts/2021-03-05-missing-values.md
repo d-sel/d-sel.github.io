@@ -1,4 +1,4 @@
-### Missing Data: Why should we care and how can we deal with it?
+## Missing Data: Why should we care and how can we deal with it?
 
 The vast majority of the time, we are trying to make conclusions about
 something using imperfect data. These imperfections can be in the form
@@ -14,7 +14,7 @@ spreadsheet, any form of ‘N/A’ wording or even as the word ‘null’. If we
 have missing data, can we just ignore those rows and work with the rest?
 Although easy to do, this can affect our results.
 
-### Impact of Missing Data
+## Impact of Missing Data
 
 To illustrate how missing data can impact results, we will look at an
 example based off [Employee Job Satisfaction data from
@@ -41,19 +41,19 @@ are shown here for context.
     ## 10     9 HR         On-Campus          TRUE
 
 The impact on results relates to the reason the data is missing: 1)
-***Completely at random***: The chance of any particular data point
+**Completely at random**: The chance of any particular data point
 missing is the same. We cannot find any patterns to the missing data and
 can equally expect any of the rows or columns to have a missing data
 point.
 
-1.  ***Pattern within the data itself***: Data can be missing but have a
+1.  **Pattern within the data itself**: Data can be missing but have a
     pattern to it that can be identified from the data we have. For
     example, if we have data that is collected during the day, we may
     notice that during specific hours, we are missing certain columns in
     the data. We would be able to pinpoint this as we would have a
     column in our data identifying the time.
 
-2.  ***Pattern outside of our data***: Similar to the second type, data
+2.  **Pattern outside of our data**: Similar to the second type, data
     can be missing with a pattern, but it can be related to something
     that is not captured within our data columns. This is the most
     difficult to identify as we cannot see the pattern directly.
@@ -112,7 +112,7 @@ overstate our percentage of satisfied employees. We can see that the
 percentage of Sales employees reporting as satisfied is up to 61%,
 higher than both Scenario 1 and 2.
 
-### Fixing Missing Data
+## Fixing Missing Data
 
 Once we have determined the type of missing data, we can now deal with
 it appropriately:
@@ -135,7 +135,7 @@ group the same value which helps to reflect some of the differences
 across groups which may provide more accuracy over using one value
 across the whole dataset.
 
-### Conclusion
+## Conclusion
 
 Missing data is something we all have to deal with; although it may not
 seem like an important aspect of our work, we must consider the
