@@ -65,9 +65,10 @@ If we take the approach of ignoring rows with missing responses, we overstate ou
 ### Fixing Missing Data
 
 Once we have determined the type of missing data, we can now deal with it appropriately:
-- If our data is missing completely at random (scenario 2), then it is safe to ignore those rows. Prior to doing any sort of calculations with the data, we safely eliminate those rows and continue our work.
 
-- If our missing data has a pattern within or outside of the dataset (scenario 3), we cannot ignore the rows. Instead, we should fill them with an appropriate value. This process is called imputation and there are many approaches that can be taken, some of which are simpler and others that require statistical calculations.
+-   If our data is missing completely at random (scenario 2), then it is safe to ignore those rows. Prior to doing any sort of calculations with the data, we safely eliminate those rows and continue our work.
+
+-   If our missing data has a pattern within or outside of the dataset (scenario 3), we cannot ignore the rows. Instead, we should fill them with an appropriate value. This process is called imputation and there are many approaches that can be taken, some of which are simpler and others that require statistical calculations.
 
 With numeric data, one of the simple approaches we can take is to populate the missing values of a column using the mean or mode (most frequent) of that column's existing data. An approach with text data is to group the rows and give all of the missing values within the same group the same value which helps to reflect some of the differences across groups which may provide more accuracy over using one value across the whole dataset.
 
